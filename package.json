@@ -23,6 +23,10 @@
   "type": "commonjs",
   "bin": "./bin/npxDemo.js",
   "main": "./src/index.js",
+    "files": [
+    "bin",
+    "src"
+  ],
   "scripts": {
     "test": "test"
   }
