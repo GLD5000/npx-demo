@@ -83,5 +83,5 @@ npm publish --access public
 - ### Test it out
 
 ```
-npx @GLD5000-cli/npx-demo
+npx @gld5000-cli/npx-demo
 ```
