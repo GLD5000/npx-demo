@@ -14,9 +14,9 @@ Hello user (passing a variable):
 
 ## Create your own
 
-- Create a repo
+- ### Create a repo
   E.G. npx-demo
-- Create a function
+- ### Create a function
 
 ```
   mkdir src
@@ -34,7 +34,7 @@ module.exports = function run(name) {
 };
 ```
 
-- Create a bin
+- ### Create a bin
 
 ```
 mkdir bin
@@ -68,19 +68,19 @@ require('../src/index')(name);
 
 ```
 
-- Make the bin file executable across operating systems:
+- ### Make the bin file executable across operating systems
 
 ```
 chmod +x bin/npxDemo.js
 ```
 
-- Publish your NPM package
+- ### Publish your NPM package
 
 ```
 npm publish --access public
 ```
 
-- Test it out
+- ### Test it out
 
 ```
 npx @GLD5000-cli/npx-demo
