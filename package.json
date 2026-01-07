@@ -1,0 +1,29 @@
+{
+  "name": "@gld5000-cli/npx-demo",
+  "version": "1.0.0",
+  "description": "A hello world style demo of using NPX within an NPM package",
+  "keywords": [
+    "npx",
+    "demo",
+    "tutorial",
+    "npm",
+    "package",
+    "bin"
+  ],
+  "homepage": "https://github.com/GLD5000/npx-demo#readme",
+  "bugs": {
+    "url": "https://github.com/GLD5000/npx-demo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GLD5000/npx-demo.git"
+  },
+  "license": "MIT",
+  "author": "GLD5000",
+  "type": "commonjs",
+  "bin": "./bin/npxDemo.js",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "test"
+  }
+}
