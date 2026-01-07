@@ -7,7 +7,7 @@ Hello world:
 
 Hello user (passing a variable):
 
-`npx @gld5000-cli/npx-demo your-user-name`
+`npx @gld5000-cli/npx-demo --name "your user name"`
 ## Create your own
 - Create a repo
 - Create a function
