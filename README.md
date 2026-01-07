@@ -80,8 +80,10 @@ chmod +x bin/npxDemo.js
 npm publish --access public
 ```
 
-- ### Test it out
+- ### Test it out (from a different repo)
 
 ```
 npx @gld5000-cli/npx-demo
+npx @gld5000-cli/npx-demo --name "Bobby Digital"
+
 ```
