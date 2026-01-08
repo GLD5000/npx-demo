@@ -13,9 +13,30 @@ Hello user (passing a variable):
 `npx @gld5000-cli/npx-demo --name "your user name"`
 
 ## Create your own
-
 - ### Create a repo
   E.G. npx-demo
+- ### Create a package.json
+Use `npm init`:
+```
+npm init
+```
+Add bin:
+```
+  "bin": {
+    "npx-demo": "./bin/npxDemo.js"
+  },
+```
+Or:
+```
+  "bin": "./bin/npxDemo.js",
+```
+Add files:
+```
+  "files": [
+    "bin",
+    "src"
+  ],
+```
 - ### Create a function
 
 ```
