@@ -94,6 +94,11 @@ require('../src/index')(name);
 ```
 chmod +x bin/npxDemo.js
 ```
+- ### Test it out (locally)
+
+```
+npx .
+```
 
 - ### Publish your NPM package
 
