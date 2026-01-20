@@ -1,6 +1,6 @@
 # npx-demo
 
-This repo is a simple demo of how to implement NPX functionality within an NPM package.
+This repo is a really simple demo of how to implement NPX functionality within an NPM package.
 
 ## Test it out
 
